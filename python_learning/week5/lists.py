@@ -23,7 +23,7 @@
 
 friends= []
 for friend in friends:
-    requestFriend.input[]
+    requestFriend=input[]
 friends = ["Jake", "Noah", "Josh"]
 print(f"Here is my list of friends: {friends}")
 friends.append("Caleb")
