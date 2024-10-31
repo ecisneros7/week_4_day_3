@@ -1,0 +1,36 @@
+#Exercise 1
+fav_lang = input("What's your favorite coding language? ")
+if fav_lang == 'Python':
+    print("Your favorite language is Python!")
+else:
+    print("Different Choice")
+#Exercise 2
+num = int(input("Choose a number to determine its place on the grading scale: "))  
+if num >= 90:
+    print("This grade is an A")
+elif 80 <= num <= 89:
+    print("This grade is a B")
+elif 70 <= num <= 79:
+    print("This grade is a C")
+elif 60 <= num <= 69:
+    print("This grade is a D")
+elif num < 60:
+    print("This grade is an F")
+else:
+    print("The number you enterest is not allowed")
+#Exercise 3
+user = input("Username: ")
+logged_in = False
+if user == 'admin' and logged_in:
+    print("Hello admin!")
+elif user == 'admin' and not logged_in:
+    print("log in")
+else:
+    ("Invalid Input")
+#Exercise 4
+list_1 = [1, 2, 3]
+list_2 = [1, 2, 3]
+if list_1 is list_2:
+    print("In memory, these are the same objects")
+else:
+    print("These objects aren't the same object")
